@@ -28,6 +28,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - Website - [timi](https://www.your-site.com)
 - Frontend Mentor - [@timi-emmanuel](https://www.frontendmentor.io/profile/timi-emmanuel)
-- Twitter - [@yourusername](https://www.twitter.com/adekunletimi16)
+- Twitter - [@adekunletimi16](https://www.twitter.com/adekunletimi16)
 
 
