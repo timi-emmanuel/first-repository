@@ -1,0 +1,41 @@
+body{
+ background-color:hsl(215, 38%, 87%) ; 
+}
+ 
+div.type1{  
+ height: 400px;
+ width: 250px; 
+ border: 4px solid white; 
+ border-radius: 12px 12px 15px 15px;
+ box-sizing: border-box;
+ background-color: white;
+ margin:auto ; 
+margin-top:70px; 
+margin-bottom:60px; 
+ padding: 9px;
+}
+
+.iag{ border: 1px hidden;border-radius: 7px; width: 224px; height: 230px;font:normal 700 17px outfit;
+}
+
+.pep{
+ margin-top: 1px;
+ text-align: center;
+ font:normal 400 12px outfit;color: rgb(134, 132, 132);
+}
+
+p.para1{
+ text-align: center;
+ font:  400 14px outfit;
+}
+
+p.para2{
+ font:normal 700 17px outfit;text-align: center;
+}
+
+.text{
+ text-align: center;
+ font:  400 14px outfit;
+ margin-top: -10px;
+}
+a{text-decoration:none}
