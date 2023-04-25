@@ -2,52 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <title> QR code component</title>
   <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
-  <style>
-    body{
-      background-color:hsl(215, 38%, 87%) ;   }
-    div.type1
-    {  
-      height: 400px;
-      width: 250px; 
-      border: 4px solid white; 
-      border-radius: 12px 12px 15px 15px;
-      box-sizing: border-box;
-      background-color: white;
-      margin:auto ; 
-     margin-top:70px; 
-     margin-bottom:60px; 
-      padding: 9px;
-
-    }
-    .iag{ border: 1px hidden;border-radius: 7px; width: 224px; height: 230px;}
-    .pep{
-      margin-top: 10px;
-      text-align: center;
-    }
-    p{
-      text-align: center;
-      font:  400 14px outfit;
-    }
-    .text{
-      text-align: center;
-      font:  400 14px outfit;
-      margin-top: -10px
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
  <body>
-<div class="type1">
-  <img class="iag" src="image-qr-code.png" alt="QR code to frontendmentor.io">
-  <p style="font:normal 700 17px outfit;">  Improve your front-end <br> skills by building projects</p>
-  <p class="pep" style=" font:normal 400 12px outfit;color: rgb(134, 132, 132);" > 
-    Scan  the QR code to visit Frontend <br>
-  Mentor  and take your coding skills to <br> 
+<main>
+  <div class="type1">
+  <img class="iag" src="image-qr-code.png" alt="Qr-code component to frontendmentor">
+  <p class="para2">  Improve your front-end  skills by building projects</p>
+  <p class="pep"> 
+    <span style="display: block;">Scan  the QR code to visit Frontend </span>
+    <span style="display: block;"> Mentor  and take your coding skills to </span>
      the next level
     </p>
   </div>
+</main>
+<footer>
   <p class="text">Challenge by <a href="https://www.frontendmentor.io/challenges">Frontend Mentor</a>. Coded by Timi</p>
+</footer>
 </body>
 </html>
